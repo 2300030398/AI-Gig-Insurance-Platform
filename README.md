@@ -1,37 +1,26 @@
-# AI-Gig-Insurance-Platform
-# AI-Powered Insurance for Gig Workers 🚀
 
-## 📌 Problem
-Delivery workers lose income due to rain, pollution, and disruptions.
 
-## 💡 Solution
-An AI-based parametric insurance system that:
-- Charges weekly premium
-- Detects disruptions
-- Automatically triggers payouts
+# AI-Gig-Insurance-Platform 🚀
 
-## 👤 Persona
-Food delivery partners (Zomato/Swiggy)
+**Problem:** Gig workers lose income due to disruptions like rain and pollution.
 
-## ⚙️ Features
-- Simple registration
-- Weekly policy (₹49/week)
-- Rain trigger simulation
-- Automatic claim payout
+**Solution:** An AI-based insurance system that charges a small weekly premium and automatically provides payouts when disruptions occur.
 
-## 🔄 Workflow
-1. Register
-2. Buy policy
-3. Trigger disruption
-4. Claim auto-generated
-5. Payout received
+**Features:**
 
-## 🛠 Tech Stack
-- HTML, CSS, JavaScript
-- (Planned: Django, MongoDB, AI models)
+* Easy registration
+* ₹49/week policy
+* Disruption (rain) trigger simulation
+* Automatic claim & payout
 
-## ▶️ How to Run
-Open `index.html` in browser
+**Workflow:**
+Register → Buy policy → Trigger disruption → Auto claim → Get payout
 
-## 🎥 Demo Video
-(Add your video link here)
+**Tech Stack:**
+HTML, CSS, JavaScript *(Planned: Django, MongoDB, AI)*
+
+**Run:**
+Open `index.html` in your browser
+
+**Demo:**
+(Add video link)
