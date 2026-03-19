@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AI Gig Insurance Platform</title>
+    <title>Gig Worker Insurance</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: Arial; text-align: center;">
+<body>
 
-    <h1>🚀 AI Gig Insurance Platform</h1>
-    <p>Smart insurance for gig workers using AI</p>
+<h1>AI Insurance for Delivery Partners</h1>
 
-    <hr>
+<div class="container">
+    <h2>Register</h2>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="City">
+    <button onclick="register()">Register</button>
 
-    <h2>👤 User Flow</h2>
+    <h2>Weekly Policy</h2>
+    <p>Premium: ₹49/week</p>
+    <button onclick="buyPolicy()">Buy Policy</button>
 
-    <p>1. User Registers / Logs in</p>
-    <p>2. Enters Work Details</p>
-    <p>3. AI Calculates Risk Score</p>
-    <p>4. Insurance Plan Suggested</p>
+    <h2>Trigger Event</h2>
+    <button onclick="triggerRain()">Simulate Heavy Rain</button>
 
-    <hr>
+    <h2>Status</h2>
+    <p id="status">No claims yet</p>
+</div>
 
-    <button onclick="alert('Login feature coming soon!')">Login</button>
-    <button onclick="alert('Signup feature coming soon!')">Signup</button>
-
+<script src="script.js"></script>
 </body>
 </html>
