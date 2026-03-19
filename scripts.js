@@ -1,5 +1,5 @@
 function register() {
-    alert("User Registered!");
+    alert("User Registered Successfully!");
 }
 
 function buyPolicy() {
@@ -8,5 +8,5 @@ function buyPolicy() {
 
 function triggerRain() {
     document.getElementById("status").innerText =
-        "Heavy rain detected → Claim triggered → ₹500 payout!";
+        "Heavy rain detected 🌧️ → Claim triggered → ₹500 payout!";
 }
